@@ -11,7 +11,7 @@ import SwiftUI
 struct graphqlexampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: AnimeViewModel())
         }
     }
 }
